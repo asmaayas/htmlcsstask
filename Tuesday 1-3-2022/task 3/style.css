@@ -1,0 +1,20 @@
+.h {
+    color: rgb(65, 62, 214);
+    background-color: lightblue;
+    
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+.lb{
+    color: rgb(128, 212, 240);
+}
+
+.db {
+    color: darkblue;
+}
+#y{
+    font-family: Arial, Helvetica, sans-serif;
+}
