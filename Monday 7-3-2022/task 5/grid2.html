@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .contant div{
+        
+        border: 1px solid ;
+    }
+    .contant{
+        height: 100hv;
+        display: grid;
+        column-gap: 10px;
+        row-gap:10px ;
+        grid-template-columns:repeat(3,1fr) ;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 'a b c' 'd e f' 'g h j';
+    }
+    .a{
+        grid-area: a;
+        background-image: url(./1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .b{
+        grid-area: b;
+        background-image: url(./2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .c{
+        grid-area: c;
+        background-image: url(./3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .d{
+        grid-area: d;
+        background-image: url(./4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .e{
+        grid-area: e;
+        background-image: url(./5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .f{
+        grid-area: f;
+        background-image: url(./6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .g{
+        grid-area: g;
+        background-image: url(./7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .h{
+        grid-area: h;
+        background-image: url(./8.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .j{
+        grid-area: h;
+    }
+    
+    img{
+        width: 100%;
+        height: 200px;
+    }
+</style>
+<body>
+    <div class="contant">
+        <div class="a"><img  alt=""></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <div class="f"></div>
+        <div class="g">></div>
+        <div class="h"></div>
+        <div class="j"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+ h1{
+    position:absolute;
+    left: 50%;
+    top:40%;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1s all ease;
+   
+
+}
+
+h1:hover{
+    background-color: bule;
+    transform: translate(50);
+} 
+
