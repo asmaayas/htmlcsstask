@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .contant{
+            height: 200vh;
+            display: grid;
+            column-gap:20px;
+            row-gap:20px;
+            grid-template-columns: repeat(5 1fr);
+            grid-template-rows: repeat(5 1fr);
+            grid-template-areas: 'a b c d' 'e  a1 b1 c1' 'd1 e1 a11 b11' 'c11 d11 e11 a111';
+        }
+        .contant div {
+            width: 400px;
+            height:400px;
+        }
+        img{
+            width: 400px;
+            height:400px;
+        }
+        .c1{
+            background-color: red;
+        }
+        .c11{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="contant">
+        <div class="a"><img src="./pic/11.jpg" alt=""></div>
+        <div class="b"><img src="./pic/22.jpg" alt=""></div>
+        <div class="c"><img src="./pic/33.jpg" alt=""></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <div class="a1"></div>
+        <div class="b1"></div>
+        <div class="c1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem, cupiditate consectetur omnis, odio et quisquam temporibus id libero nihil necessitatibus culpa! Fugiat nulla unde commodi nam dicta quam tenetur. loLorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem, cupiditate consectetur omnis, odio et quisquam temporibus id libero nihil necessitatibus culpa! Fugiat nulla unde commodi nam dicta quam tenetur. loLorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem, cupiditate consectetur omnis, odio et quisquam temporibus id libero nihil necessitatibus culpa! Fugiat nulla unde commodi nam dicta quam tenetur. loLorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem, cupiditate consectetur omnis, odio et quisquam temporibus id libero nihil necessitatibus culpa! Fugiat nulla unde commodi nam dicta quam tenetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates dolore voluptatum, cupiditate minus enim voluptatibus. Earum, magnam distinctio. Consequatur incidunt accusamus qui cumque voluptate ducimus officiis illum animi iure? lo</p></div>
+        <div class="d1"></div>
+        <div class="e1"><img src="./pic/44.jpg" alt=""></div>
+        <div class="a11"></div>
+        <div class="b11"></div>
+        <div class="c11"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem, cupiditate consectetur omnis, odio et quisquam temporibus id libero nihil necessitatibus culpa! Fugiat nulla unde commodi nam dicta quam tenetur. loLorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem, cupiditate consectetur omnis, odio et quisquam temporibus id libero nihil necessitatibus culpa! Fugiat nulla unde commodi nam dicta quam tenetur. loLorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem, cupiditate consectetur omnis, odio et quisquam temporibus id libero nihil necessitatibus culpa! Fugiat nulla unde commodi nam dicta quam tenetur. loLorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem, cupiditate consectetur omnis, odio et quisquam temporibus id libero nihil necessitatibus culpa! Fugiat nulla unde commodi nam dicta quam tenetur. lo</p></div>
+        <div class="d11"></div>
+        <div class="e11"></div>
+        <div class="a111"><img src="./pic/55.jpeg" alt=""></div>
+    </div>
+</body>
+</html>
